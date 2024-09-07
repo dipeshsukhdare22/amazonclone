@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Outfit;
+}
+
+body {
+  background-color: #fff;
+  text-align: center;
+  min-height: 100vh;
+}
+.logo-png {
+  margin-top: 2%;
+}
+.signin-container {
+  max-width: 350px;
+  border: 1px solid #d2d2d2;
+  margin: auto;
+  margin-top: 2%;
+  padding: 1.5% 2%;
+  border-radius: 8px;
+  text-align: left;
+}
+.signin-title {
+  font-size: 28px;
+  font-weight: 400;
+}
+.input-lab {
+  margin-top: 2%;
+}
+.signin-container input {
+  width: 100%;
+  height: 30%;
+  margin-top: 1%;
+  padding: 3%;
+  border-radius: 3px;
+  border: 1px solid #a0a0a0;
+  font-size: 12px;
+}
+.signin-container input:focus {
+  outline: 3px solid #c2f3ff;
+}
+.signin-container button {
+  width: 100%;
+  height: 32px;
+  margin: 2% 0;
+  background-color: #ffd814;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.signin-container button:hover {
+  background-color: #ebc712;
+}
+.signin-container p span {
+  color: #0066c0;
+}
+.sigin-cond {
+  font-size: 11.5px;
+}
+
+.signin-help {
+  font-size: 13px;
+  margin: 2% 0;
+}
+.signin-container hr {
+  border: none;
+  height: 1px;
+  background-color: #d4d4d4;
+}
+.signin-container h4 {
+  margin: 5% 0;
+  font-size: 13px;
+}
+.signin-business {
+  font-size: 13px;
+}
+.signin-bot {
+  max-width: 350px;
+  font-size: 13px;
+  color: #737373;
+  margin: 2% auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+}
+.signin-bot hr {
+  border: none;
+  height: 1px;
+  background-color: #d4d4d4;
+  width: 110px;
+}
+.signin-sign-btn {
+  width: 25%;
+  height: 30px;
+  font-size: 13px;
+  background-color: #fff;
+  border-radius: 5px;
+  border: 1px solid #c3c3c3;
+}
+.signin-sign-btn:hover {
+  background-color: #f1f1f1;
+}
+footer {
+  width: 100%;
+  height: auto;
+  max-height: 200px;
+  margin-top: 2%;
+  padding: 1% 0;
+
+  bottom: 0;
+  background: linear-gradient(to bottom, #f4f4f4, #fff);
+  border: 2px solid #ededed;
+}
+.footer-links {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 2%;
+}
+.footer-links a {
+  text-decoration: none;
+  color: #0660c0;
+}
+@media screen and (max-width: 700px) {
+  .signin-sign-btn {
+    width: 80%;
+  }
+}

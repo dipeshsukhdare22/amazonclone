@@ -1,0 +1,249 @@
+body {
+  background-color: #fff;
+}
+
+.breadcrum {
+  padding: 1% 2%;
+  font-size: 12px;
+  color: #565656;
+}
+.product-dis {
+  min-height: 100%;
+  padding: 1% 2%;
+  display: flex;
+}
+
+.product-d-img {
+  display: flex;
+  gap: 10px;
+}
+.prodct-icon {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.prodct-icon img {
+  border: 1px solid gray;
+  border-radius: 10px;
+  padding: 8%;
+}
+.product-d-details {
+  margin: 0 3%;
+  width: 100%;
+}
+.product-title {
+  font-size: 25px;
+}
+.brand-store {
+  margin-top: 2%;
+  color: #007185;
+  font-size: 14px;
+}
+.pro-rating {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.pro-rating div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.pro-rating p {
+  color: #007185;
+}
+.pro-rating p span {
+  color: #fff;
+  background-color: #c73500;
+  padding: 1% 2%;
+  border-radius: 3px;
+  font-size: 14px;
+}
+.pro-rating h5 {
+  font-weight: 400;
+}
+.product-price {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.product-price div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 1% 0;
+}
+.product-price div p {
+  font-size: 26px;
+  color: #c73500;
+}
+.product-price div h1 {
+  font-weight: 500;
+  font-size: 14px;
+}
+.product-price div h1 span {
+  font-size: 26px;
+}
+.product-price div h5 {
+  color: #565656;
+  font-weight: 400;
+}
+.product-price h5 span {
+  text-decoration: line-through;
+}
+.product-price p span {
+  color: #007185;
+}
+.product-color-sel {
+  margin: 2% 0;
+}
+.product-color-opt {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2%;
+}
+.option {
+  display: flex;
+  align-items: center;
+  padding: 8px 12px;
+  border: 1px solid #cbcbcb;
+  gap: 10px;
+}
+.product-info {
+  display: grid;
+  grid-template-columns: auto auto;
+  max-width: 300px;
+  margin-bottom: 15px;
+}
+.product-discription ul {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-left: 3%;
+}
+.product-discription h1 {
+  font-size: 20px;
+  margin: 15px 0;
+}
+.product-d-purchase {
+  width: 100%;
+  max-width: 280px;
+  border: 1px solid #c1c1c1;
+  border-radius: 10px;
+  padding: 2%;
+}
+.product-d-purchase .title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.product-d-purchase .price {
+  font-size: 16px;
+  font-weight: 400;
+  margin: 1% 0;
+}
+.product-d-purchase .price span {
+  font-size: 26px;
+  padding: 2px;
+}
+.product-d-purchase .gap {
+  margin: 7% 0;
+}
+.product-d-purchase p span {
+  color: #007185;
+}
+.del-location {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+}
+.pro-stock {
+  margin: 8% 0;
+  color: green;
+  font-weight: 400;
+}
+.pro-quantity {
+  padding: 8px 5px;
+  outline: none;
+  width: 100%;
+  border-radius: 5px;
+  background-color: #efefef;
+  border-color: #c1c1c1;
+}
+.product-d-purchase .btn-cart {
+  outline: none;
+  border: none;
+  background-color: #ffd814;
+  width: 100%;
+  padding: 6% 0;
+  margin-top: 10%;
+  border-radius: 50px;
+  cursor: pointer;
+}
+.btn-pro-buy {
+  outline: none;
+  border: none;
+  background-color: #ffa41c;
+  width: 100%;
+  padding: 6% 0;
+  margin-top: 7%;
+  border-radius: 50px;
+  cursor: pointer;
+}
+.product-seller-info {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 10px;
+  font-size: 14px;
+  color: #565656;
+  margin-top: 10px;
+}
+.product-seller-info span {
+  color: #007185;
+}
+.product-d-purchase hr {
+  margin: 10% 0;
+}
+.product-add-list {
+  width: 100%;
+  padding: 4% 9%;
+  border-radius: 5px;
+  border: 1px solid #000;
+  text-align: start;
+  background-color: white;
+  cursor: pointer;
+}
+.pro-foot {
+  margin-top: 5%;
+}
+/* media query */
+@media screen and (max-width: 900px) {
+  .product-dis {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 600px) {
+  .prodct-icon {
+    display: none;
+  }
+  .product-main-img {
+    width: 100%;
+    padding: 2%;
+  }
+  .option {
+    padding: 6px 8px;
+  }
+  .option p {
+    display: none;
+  }
+  .product-d-purchase {
+    max-width: 90%;
+    margin: 20px auto 10px;
+  }
+  .product-d-purchase .btn-cart {
+    padding: 3% 0;
+  }
+  .btn-pro-buy {
+    padding: 3% 0;
+  }
+}

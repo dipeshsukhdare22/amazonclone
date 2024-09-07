@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Amazon Clone</title>
+    <link rel="stylesheet" href="Amazon.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+    <nav>
+      <a href="#">
+        <img src="./cloneimg/amazon_logo.png" width="100" alt="logo"
+      /></a>
+      <div class="nav-count">
+        <img src="./cloneimg/location_icon.png" height="20" alt="location" />
+        <div>
+          <p>Deliver to</p>
+          <h1>Mumbai</h1>
+        </div>
+      </div>
+      <div class="nav-search">
+        <div class="nav-search-cat">
+          <p>All</p>
+          <img src="./cloneimg/dropdown_icon.png" height="12" alt="drop-down" />
+        </div>
+        <input type="text" class="nav-input" placeholder="Search Amazon.in" />
+        <img
+          src="./cloneimg/search_icon.png"
+          alt="search"
+          class="nav-search-icon"
+        />
+      </div>
+      <div class="nav-lang">
+        <img src="./cloneimg/ind_flag.jpg" width="25px" alt="flag" />
+        <p class="lang">EN</p>
+        <img src="./cloneimg/dropdown_icon.png" height="10" alt="down" />
+      </div>
+      <div class="nav-tetx">
+        <p><a href="signin.html">Hello, Sign in</a></p>
+        <h1>
+          Account & Lists
+          <img src="./cloneimg/dropdown_icon.png" width="8px" alt="down" />
+        </h1>
+      </div>
+      <div class="nav-tetx">
+        <p>Return</p>
+        <h1>& Orders</h1>
+      </div>
+      <a href="signin.html"class="mobile-user" style="display: none;"><img src="./cloneimg/user.png" alt="user"></a>
+      <a href="cart.html" class="nav-cart">
+        <img src="./cloneimg/cart_icon.png" width="35px" alt="" />
+        <h4>Cart</h4>
+      </a>
+    </nav>
+    <div class="nav-bot">
+      <div>
+        <img src="./cloneimg/menu_icon.png" width="25px" alt="menu" />
+        <p>All</p>
+      </div>
+      <p>Today's Deal</p>
+      <p>Customer Service</p>
+      <p>Register</p>
+      <p>Gift Cards</p>
+      <p>Sell</p>
+    </div>
+    <div class="header-slider">
+      <div class="img-list">
+        <div class="item">
+          <img src="./cloneimg/header1.jpg" class="header-img" alt="img" />
+        </div>
+        <div class="item">
+          <img src="./cloneimg/header2.jpg" class="header-img" alt="img" />
+        </div>
+        <div class="item">
+          <img src="./cloneimg/header4.jpg" class="header-img" alt="img" />
+        </div>
+        <div class="item">
+          <img src="./cloneimg/header5.jpg" class="header-img" alt="img" />
+        </div>
+        <div class="item">
+          <img src="./cloneimg/header6.jpg" class="header-img" alt="img" />
+        </div>
+        <div class="item">
+          <img src="./cloneimg/header3.jpg" alt="" />
+        </div>
+      </div>
+      <div class="img-btn">
+        <button class="slider-btn" id="btn_left">
+          <i class="fa-solid fa-chevron-left"></i>
+        </button>
+        <button class="slider-btn" id="btn_right">
+          <i class="fa-solid fa-chevron-right"></i>
+        </button>
+      </div>
+    </div>
+    <div class="box-row head-box">
+      <div class="box-col">
+        <h3>Free International returns</h3>
+        <img src="./cloneimg/box1-1.jpg" alt="img" />
+        <a href="#">Shop More</a>
+      </div>
+      <div class="box-col">
+        <h3>Lunar New Year</h3>
+        <img src="./cloneimg/box1-2.jpg" alt="img" />
+        <a href="#">Shop More</a>
+      </div>
+      <div class="box-col">
+        <h3>Toys Under ₹299</h3>
+        <img src="./cloneimg/box1-3.jpg" alt="img" />
+        <a href="#">Shop More</a>
+      </div>
+      <div class="box-col">
+        <h3>Deals in PCs</h3>
+        <img src="./cloneimg/box1-4.jpg" alt="img" />
+        <a href="#">Shop More</a>
+      </div>
+    </div>
+    <div class="box-row">
+      <div class="box-col">
+        <h3>Grooming Products</h3>
+        <img src="./cloneimg/box2-1.jpg" alt="img" />
+        <a href="#">Shop More</a>
+      </div>
+      <div class="box-col">
+        <h3>Latest Device</h3>
+        <img src="./cloneimg/box2-2.jpg" alt="img" />
+        <a href="#">Shop More</a>
+      </div>
+      <div class="box-col">
+        <h3>Pets Food</h3>
+        <img src="./cloneimg/box2-3.jpg" alt="img" />
+        <a href="#">Shop More</a>
+      </div>
+      <div class="box-col">
+        <h3>Fashion Mart</h3>
+        <img src="./cloneimg/box2-4.jpg" alt="img" />
+        <a href="#">Shop More</a>
+      </div>
+    </div>
+    <div class="pro-slider">
+      <h2>Best Seller In Sports & Outdoors</h2>
+      <div class="products">
+        <img src="./cloneimg/product_img.jpg" alt="product">
+        <img src="./cloneimg/product1-1.jpg" alt="product" />
+        <img src="./cloneimg/product1-2.jpg" alt="product" />
+        <img src="./cloneimg/product1-3.jpg" alt="product" />
+        <img src="./cloneimg/product1-4.jpg" alt="product" />
+        <img src="./cloneimg/product1-5.jpg" alt="product" />
+        <img src="./cloneimg/product1-6.jpg" alt="product" />
+        <img src="./cloneimg/product1-7.jpg" alt="product" />
+        <img src="./cloneimg/product1-8.jpg" alt="product" />
+        <img src="./cloneimg/product1-9.jpg" alt="product" />
+        <img src="./cloneimg/product1-10.jpg" alt="product" />
+      </div>
+    </div>
+    <div class="box-row">
+      <div class="box-col">
+        <h3>Ststionery</h3>
+        <img src="./cloneimg/box3-1.jpg" alt="img" />
+        <a href="#">Shop More</a>
+      </div>
+      <div class="box-col">
+        <h3>Laptops For Study</h3>
+        <img src="./cloneimg/box3-2.jpg" alt="img" />
+        <a href="#">Shop More</a>
+      </div>
+      <div class="box-col">
+        <h3>Office Chairs</h3>
+        <img src="./cloneimg/box3-3.jpg" alt="img" />
+        <a href="#">Shop More</a>
+      </div>
+      <div class="box-col">
+        <h3>Gaming Monitor</h3>
+        <img src="./cloneimg/box3-4.jpg" alt="img" />
+        <a href="#">Shop More</a>
+      </div>
+    </div>
+
+    <section class="product-slider-price">
+      <h2>Deals Under ₹249</h2>
+      <div class="products">
+        <div class="product-card">
+          <div class="product-img-cont">
+            <img src="./cloneimg/product2-1.jpg" alt="" />
+          </div>
+          <div class="product-offer">
+            <p>27% off</p>
+            <span>Deal</span>
+          </div>
+          <p class="pro-price">₹<span>199</span></p>
+          <h4>This Product Is The Best For You</h4>
+        </div>
+        <div class="product-card">
+          <div class="product-img-cont">
+            <img src="./cloneimg/product2-2.jpg" alt="" />
+          </div>
+          <div class="product-offer">
+            <p>27% off</p>
+            <span>Deal</span>
+          </div>
+          <p class="pro-price">₹<span>199</span></p>
+          <h4>This Product Is The Best For You</h4>
+        </div>
+        <div class="product-card">
+          <div class="product-img-cont">
+            <img src="./cloneimg/product2-3.jpg" alt="" />
+          </div>
+          <div class="product-offer">
+            <p>27% off</p>
+            <span>Deal</span>
+          </div>
+          <p class="pro-price">₹<span>199</span></p>
+          <h4>This Product Is The Best For You</h4>
+        </div>
+        <div class="product-card">
+          <div class="product-img-cont">
+            <img src="./cloneimg/product2-4.jpg" alt="" />
+          </div>
+          <div class="product-offer">
+            <p>27% off</p>
+            <span>Deal</span>
+          </div>
+          <p class="pro-price">₹<span>199</span></p>
+          <h4>This Product Is The Best For You</h4>
+        </div>
+        <div class="product-card">
+          <div class="product-img-cont">
+            <img src="./cloneimg/product2-5.jpg" alt="" />
+          </div>
+          <div class="product-offer">
+            <p>27% off</p>
+            <span>Deal</span>
+          </div>
+          <p class="pro-price">₹<span>199</span></p>
+          <h4>This Product Is The Best For You</h4>
+        </div>
+        <div class="product-card">
+          <div class="product-img-cont">
+            <img src="./cloneimg/product2-6.jpg" alt="" />
+          </div>
+          <div class="product-offer">
+            <p>27% off</p>
+            <span>Deal</span>
+          </div>
+          <p class="pro-price">₹<span>199</span></p>
+          <h4>This Product Is The Best For You</h4>
+        </div>
+        <div class="product-card">
+          <div class="product-img-cont">
+            <img src="./cloneimg/product2-7.jpg" alt="" />
+          </div>
+          <div class="product-offer">
+            <p>27% off</p>
+            <span>Deal</span>
+          </div>
+          <p class="pro-price">₹<span>199</span></p>
+          <h4>This Product Is The Best For You</h4>
+        </div>
+        <div class="product-card">
+          <div class="product-img-cont">
+            <img src="./cloneimg/product2-8.jpg" alt="" />
+          </div>
+          <div class="product-offer">
+            <p>27% off</p>
+            <span>Deal</span>
+          </div>
+          <p class="pro-price">₹<span>199</span></p>
+          <h4>This Product Is The Best For You</h4>
+        </div>
+        <div class="product-card">
+          <div class="product-img-cont">
+            <img src="./cloneimg/product2-9.jpg" alt="" />
+          </div>
+          <div class="product-offer">
+            <p>27% off</p>
+            <span>Deal</span>
+          </div>
+          <p class="pro-price">₹<span>199</span></p>
+          <h4>This Product Is The Best For You</h4>
+        </div>
+        <div class="product-card">
+          <div class="product-img-cont">
+            <img src="./cloneimg/product2-10.jpg" alt="" />
+          </div>
+          <div class="product-offer">
+            <p>27% off</p>
+            <span>Deal</span>
+          </div>
+          <p class="pro-price">₹<span>199</span></p>
+          <h4>This Product Is The Best For You</h4>
+        </div>
+        <div class="product-card">
+          <div class="product-img-cont">
+            <img src="./cloneimg/product2-11.jpg" alt="" />
+          </div>
+          <div class="product-offer">
+            <p>27% off</p>
+            <span>Deal</span>
+          </div>
+          <p class="pro-price">₹<span>199</span></p>
+          <h4>This Product Is The Best For You</h4>
+        </div>
+      </div>
+    </section>
+
+    <section class="pro-slider">
+      <h2>Best Seller In Sports & Outdoors</h2>
+      <div class="products">
+       <a href="product.html"><img src="./cloneimg/product_img.jpg" alt="product" /></a>
+        <img src="./cloneimg/product1-1.jpg" alt="product" />
+        <img src="./cloneimg/product1-2.jpg" alt="product" />
+        <img src="./cloneimg/product1-3.jpg" alt="product" />
+        <img src="./cloneimg/product1-4.jpg" alt="product" />
+        <img src="./cloneimg/product1-5.jpg" alt="product" />
+        <img src="./cloneimg/product1-6.jpg" alt="product" />
+        <img src="./cloneimg/product1-7.jpg" alt="product" />
+        <img src="./cloneimg/product1-8.jpg" alt="product" />
+        <img src="./cloneimg/product1-9.jpg" alt="product" />
+        <img src="./cloneimg/product1-10.jpg" alt="product" />
+      </div>
+    </section>
+    <section class="box-row">
+      <div class="box-col">
+        <h3>Ststionery</h3>
+        <img src="./cloneimg/box3-1.jpg" alt="img" />
+        <a href="#">Shop More</a>
+      </div>
+      <div class="box-col">
+        <h3>Laptops For Study</h3>
+        <img src="./cloneimg/box3-2.jpg" alt="img" />
+        <a href="#">Shop More</a>
+      </div>
+      <div class="box-col">
+        <h3>Office Chairs</h3>
+        <img src="./cloneimg/box3-3.jpg" alt="img" />
+        <a href="#">Shop More</a>
+      </div>
+      <div class="box-col">
+        <h3>Gaming Monitor</h3>
+        <img src="./cloneimg/box3-4.jpg" alt="img" />
+        <a href="#">Shop More</a>
+      </div>
+    </section>
+<footer>
+  <img src="./cloneimg/amazon_logo.png" width="100b" alt="logo">
+  <p>&copy 1996-2024, Amazon.com,Inc.or its affiliates</p>
+</footer>
+    <script src="Amazon.js"></script>
+  </body>
+</html>
